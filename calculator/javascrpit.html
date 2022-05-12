@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+    <h1>Calculator</h1>
+    <table border="1">
+        <tr>
+        <td colspan="4">
+            <h1 id="result">result</h1>
+        </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+
+                <input type="number" placeholder="number" id="input1">
+            </td>
+            <td colspan="2"><input type="number" placeholder="number" id="input2">
+            </td>
+
+
+        </tr>
+        <tr>
+            <td>
+                <button type="1">1</button>
+            </td>
+            <td>
+                <button type="2">2</button>
+            </td>
+            <td>
+                <button type="3">3</button>
+            </td>
+            <td>
+                <button onclick="divide()" type="/">/</button>
+            </td>
+
+        </tr>
+        <tr>
+            <td>
+                <button type="4">4</button>
+            </td>
+            <td>
+                <button type="5">5</button>
+            </td>
+            <td>
+                <button type="6">6</button>
+            </td>
+            <td>
+                <button onclick="sub()" type="-">-</button>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <button type="7">7</button>
+            </td>
+            <td>
+                <button type="8">8</button>
+            </td>
+            <td>
+                <button type="9">9</button>
+            </td>
+            <td>
+                <button onclick="add()" type="+">+</button>
+            </td>
+
+        </tr>
+        <tr>
+            <td>
+                <button type=".">.</button>
+            </td>
+            <td>
+                <button type="0">0</button>
+            </td>
+            <td>
+                <button type="=">=</button>
+            </td>
+            <td>
+                <button  onclick="mult()"type="*">*</button>
+            </td>
+
+        </tr>
+
+
+    </table>
+    <script type="text/javascript" src="script.js"></script>
+</body>
+
+</html>
